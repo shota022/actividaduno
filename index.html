@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script>
+		var x=11;
+	</script>
+	<title>Ejercicio 1</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+	
+	<body onload="actividad()">
+
+
+	<div class="cuadro" id="cuadro">hola </div>
+
+
+	<script>
+
+	function saludo()
+	{
+		 console.log(x)
+		x=x-1;
+			cuadro=document.getElementById('cuadro');
+			cuadro.innerHTML = x;
+			if(x==0)
+			{
+				clearInterval(saludo);
+
+			cuadro.innerHTML = "FIN";
+			}
+		
+	}
+	function actividad(){
+		
+	    saludo=setInterval(saludo,600);
+
+	}
+
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+.cuadro{
+		
+	position: absolute;
+	width: 50%;
+	height: 50%;
+	top: 15%;
+	left: 25%;
+		background-color: #89FFBE;
+  border: orange 5px solid;
+  	font-family:castellar;
+font-size: 50px;
+color:orange;
+font-style: italic;
+text-align: center;
+text-shadow: 
+
+}
+
